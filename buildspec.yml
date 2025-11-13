@@ -3,23 +3,35 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 18
+      dotnet: 7.0
     commands:
-      - echo Installing Angular CLI
-      - npm install -g @angular/cli
+      - echo "Checking .NET version"
+      - dotnet --version
+      - echo "Restoring NuGet packages..."
+      - dotnet restore sampletest/SampleTestApp.csproj
 
   pre_build:
     commands:
-      - echo Installing project dependencies
-      - npm install
+      - echo "Pre-build phase started"
+      - echo "Environment variables:"
+      - printenv
 
   build:
     commands:
-      - echo Building Angular app
-      - ng build --prod
+      - echo "Building the project..."
+      - dotnet build sampletest/SampleTestApp.csproj --configuration Release
+      - echo "Running tests..."
+      - dotnet test tests/SampleTestApp.Tests.csproj --no-build --verbosity normal
+
+  post_build:
+    commands:
+      - echo "Build completed successfully."
+      - echo "Listing files for deployment..."
+      - ls -R sampletest
 
 artifacts:
   files:
-    - dist/**
-  discard-paths: yes
+    - sampletest/**/*               # Include all files from main code folder
+    - scripts/**/*                  # Include start scripts
+  discard-paths: no
 
