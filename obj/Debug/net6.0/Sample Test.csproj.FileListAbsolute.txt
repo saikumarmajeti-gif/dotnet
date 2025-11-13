@@ -1,0 +1,70 @@
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\appsettings.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.staticwebassets.endpoints.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.exe
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.deps.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.runtimeconfig.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Sample Test.pdb
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.csproj.AssemblyReference.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.AssemblyInfoInputs.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.AssemblyInfo.cs
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.csproj.CoreCompileInputs.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\scopedcss\bundle\Sample Test.styles.css
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample T.216A0592.Up2Date
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\refint\Sample Test.dll
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.pdb
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\Sample Test.genruntimeconfig.cache
+C:\Users\PremKumarP-3856\source\repos\Sample Test\obj\Debug\net6.0\ref\Sample Test.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\appsettings.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.staticwebassets.endpoints.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.exe
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.deps.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.runtimeconfig.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Sample Test.pdb
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.csproj.AssemblyReference.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.AssemblyInfoInputs.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.AssemblyInfo.cs
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.csproj.CoreCompileInputs.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\scopedcss\bundle\Sample Test.styles.css
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample T.216A0592.Up2Date
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\refint\Sample Test.dll
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.pdb
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.genruntimeconfig.cache
+C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\ref\Sample Test.dll

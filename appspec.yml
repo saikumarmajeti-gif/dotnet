@@ -1,0 +1,25 @@
+version: 0.0
+os: linux
+files:
+  - source: dist/my-angular-app
+    destination: /var/www/html
+
+  - source: scripts/
+    destination: /opt/my-scripts
+
+hooks:
+  BeforeInstall:
+    - location: scripts/before_install.sh
+      timeout: 300
+      runas: root
+
+  AfterInstall:
+    - location: scripts/after_install.sh
+      timeout: 300
+      runas: root
+
+  ApplicationStart:
+    - location: scripts/restart_nginx.sh
+      timeout: 300
+      runas: root
+
