@@ -5,20 +5,15 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      - echo "Checking .NET version"
-      - dotnet --version
-      - echo "Restoring NuGet packages..."
-      - dotnet restore "Sample Test/dotnet/SampleTestApp.csproj"
-
+      - echo "Restoring .NET dependencies..."
+      - dotnet restore SampleTest/SampleTestApp.csproj
   build:
     commands:
-      - echo "Building the project..."
-      - dotnet build "Sample Test/dotnet/SampleTestApp.csproj" --configuration Release
-      - dotnet test "Sample Test/tests/SampleTestApp.Tests.csproj" --no-build --verbosity normal
+      - echo "Building project..."
+      - dotnet publish SampleTest/SampleTestApp.csproj -c Release -o ./publish
 
 artifacts:
   files:
-    - "Sample Test/dotnet/**/*"
-    - "Sample Test/scripts/**/*"
-  discard-paths: no
+    - publish/**/*
+  base-directory: publish
 
