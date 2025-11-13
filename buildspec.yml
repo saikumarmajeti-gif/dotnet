@@ -6,7 +6,8 @@ phases:
       dotnet: 8.0
     commands:
       - echo "=== INSTALL PHASE ==="
-      - pwd
+      - echo "Current directory: $(pwd)"
+      - echo "Listing files recursively:"
       - ls -R
       - echo "Check .NET version"
       - dotnet --info
@@ -14,13 +15,15 @@ phases:
   pre_build:
     commands:
       - echo "=== RESTORE PHASE ==="
-      # restore solution
+      # List the dotnet folder to confirm files
+      - ls -R SampleTest/dotnet
+      # Restore solution (handle spaces with quotes)
       - dotnet restore "SampleTest/dotnet/Sample Test.sln" --verbosity detailed
 
   build:
     commands:
       - echo "=== BUILD PHASE ==="
-      # publish project
+      # Publish project to ./publish folder
       - dotnet publish "SampleTest/dotnet/SampleTest.csproj" -c Release -o publish
       - echo "Publish folder content:"
       - ls -R publish
