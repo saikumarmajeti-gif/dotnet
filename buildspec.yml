@@ -5,12 +5,14 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
+      - echo "Listing repo contents..."
+      - ls -R
       - echo "Restoring .NET dependencies..."
-      - dotnet restore SampleTest/SampleTestApp.csproj
+      - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
   build:
     commands:
       - echo "Building project..."
-      - dotnet publish SampleTest/SampleTestApp.csproj -c Release -o ./publish
+      - dotnet publish SampleTest/dotnet/SampleTestApp.csproj -c Release -o ./publish
 
 artifacts:
   files:

@@ -1,12 +1,10 @@
 version: 0.0
 os: linux
 
-# Files to copy from build artifact to EC2
 files:
   - source: /
     destination: /var/www/html/SampleTest/dotnet
 
-# Hooks to run scripts during deployment
 hooks:
   BeforeInstall:
     - location: scripts/cleanup_old_app.sh
@@ -27,4 +25,3 @@ hooks:
     - location: scripts/validate_app.sh
       timeout: 300
       runas: root
-
