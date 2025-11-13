@@ -8,30 +8,17 @@ phases:
       - echo "Checking .NET version"
       - dotnet --version
       - echo "Restoring NuGet packages..."
-      - dotnet restore sampletest/SampleTestApp.csproj
-
-  pre_build:
-    commands:
-      - echo "Pre-build phase started"
-      - echo "Environment variables:"
-      - printenv
+      - dotnet restore "Sample Test/dotnet/SampleTestApp.csproj"
 
   build:
     commands:
       - echo "Building the project..."
-      - dotnet build sampletest/SampleTestApp.csproj --configuration Release
-      - echo "Running tests..."
-      - dotnet test tests/SampleTestApp.Tests.csproj --no-build --verbosity normal
-
-  post_build:
-    commands:
-      - echo "Build completed successfully."
-      - echo "Listing files for deployment..."
-      - ls -R sampletest
+      - dotnet build "Sample Test/dotnet/SampleTestApp.csproj" --configuration Release
+      - dotnet test "Sample Test/tests/SampleTestApp.Tests.csproj" --no-build --verbosity normal
 
 artifacts:
   files:
-    - sampletest/**/*               # Include all files from main code folder
-    - scripts/**/*                  # Include start scripts
+    - "Sample Test/dotnet/**/*"
+    - "Sample Test/scripts/**/*"
   discard-paths: no
 
