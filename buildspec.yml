@@ -10,16 +10,15 @@ phases:
       - ls -R
       - echo "Checking .NET SDK version..."
       - dotnet --info
-      - echo "Attempting dotnet restore..."
+      - echo "Restoring project..."
       - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
 
   build:
     commands:
       - echo "Building project..."
-      - dotnet publish SampleTest/dotnet/SampleTestApp.csproj -c Release -o ./publish
+      - dotnet publish SampleTest/dotnet/SampleTestApp.csproj -c Release -o publish
 
 artifacts:
-  files:
-    - publish/**/*
   base-directory: publish
-
+  files:
+    - '**/*'
