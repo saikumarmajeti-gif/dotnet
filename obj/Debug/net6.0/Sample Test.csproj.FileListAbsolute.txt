@@ -68,3 +68,39 @@ C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\refint\Sample Test
 C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.pdb
 C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\Sample Test.genruntimeconfig.cache
 C:\Users\PremKumarP-3856\Desktop\Sample Test\obj\Debug\net6.0\ref\Sample Test.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\appsettings.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.staticwebassets.endpoints.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.exe
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.deps.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.runtimeconfig.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Sample Test.pdb
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.csproj.AssemblyReference.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\rpswa.dswa.cache.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.AssemblyInfoInputs.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.AssemblyInfo.cs
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.csproj.CoreCompileInputs.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.sourcelink.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\rjimswa.dswa.cache.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\rjsmrazor.dswa.cache.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\rjsmcshtml.dswa.cache.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\scopedcss\bundle\Sample Test.styles.css
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\staticwebassets.build.json.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\staticwebassets.build.endpoints.json
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\staticwebassets.upToDateCheck.txt
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample T.216A0592.Up2Date
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\refint\Sample Test.dll
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.pdb
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\Sample Test.genruntimeconfig.cache
+C:\Users\TrinathSaikumar-2823\Downloads\Sample Test\dotnet\obj\Debug\net6.0\ref\Sample Test.dll

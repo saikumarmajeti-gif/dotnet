@@ -437,23 +437,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\PremKumarP-3856\\.nuget\\packages\\": {},
+    "C:\\Users\\TrinathSaikumar-2823\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PremKumarP-3856\\Desktop\\Sample Test\\Sample Test.csproj",
+      "projectUniqueName": "C:\\Users\\TrinathSaikumar-2823\\Downloads\\Sample Test\\dotnet\\Sample Test.csproj",
       "projectName": "Sample Test",
-      "projectPath": "C:\\Users\\PremKumarP-3856\\Desktop\\Sample Test\\Sample Test.csproj",
-      "packagesPath": "C:\\Users\\PremKumarP-3856\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PremKumarP-3856\\Desktop\\Sample Test\\obj\\",
+      "projectPath": "C:\\Users\\TrinathSaikumar-2823\\Downloads\\Sample Test\\dotnet\\Sample Test.csproj",
+      "packagesPath": "C:\\Users\\TrinathSaikumar-2823\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\TrinathSaikumar-2823\\Downloads\\Sample Test\\dotnet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\PremKumarP-3856\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\TrinathSaikumar-2823\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -510,7 +510,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }
