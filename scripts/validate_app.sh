@@ -1,9 +1,10 @@
 #!/bin/bash
-# Optional: check if the app is running
-if pgrep -f SampleTest.dll; then
-  echo "Application is running."
+if pgrep -f SampleTestApp.dll > /dev/null
+then
+  echo "Validation passed: .NET app is running."
+  exit 0
 else
-  echo "Application failed to start!"
+  echo "Validation failed: app not running."
   exit 1
 fi
 

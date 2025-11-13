@@ -5,18 +5,20 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      - "echo 'Current directory: $(pwd)'"
-      - "echo 'Listing files recursively:'"
-      - ls -R
-      - "echo 'Checking .NET SDK version:'"
+      - "echo '=== Starting INSTALL phase ==='"
+      - "echo 'Current directory:' && pwd"
+      - "echo 'Listing files:' && ls -R"
+      - "echo 'Checking .NET SDK:'"
       - dotnet --info
-      - "echo 'Restoring project:'"
-      - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
+      - "echo 'Restoring project dependencies:'"
+      - dotnet restore SampleTest/dotnet/SampleTestApp.csproj --verbosity detailed
 
   build:
     commands:
-      - "echo 'Building project:'"
-      - dotnet publish SampleTest/dotnet/SampleTestApp.csproj -c Release -o publish
+      - "echo '=== Starting BUILD phase ==='"
+      - dotnet publish SampleTest/dotnet/SampleTestApp.csproj -c Release -o ./publish
+      - "echo 'Build complete. Contents of publish folder:'"
+      - ls -R ./publish
 
 artifacts:
   base-directory: publish
