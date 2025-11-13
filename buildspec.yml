@@ -5,10 +5,14 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      - echo "Listing repo contents..."
-      - ls -R
-      - echo "Restoring .NET dependencies..."
-      - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
+      install:
+  commands:
+    - echo "Current directory: $(pwd)"
+    - echo "Listing files recursively:"
+    - ls -R
+    - echo "Attempting dotnet restore..."
+    - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
+
   build:
     commands:
       - echo "Building project..."
