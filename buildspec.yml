@@ -15,21 +15,18 @@ phases:
   pre_build:
     commands:
       - echo "=== RESTORE PHASE ==="
-      # List the dotnet folder to confirm files
       - ls -R SampleTest/dotnet
-      # Restore solution (handle spaces with quotes)
       - dotnet restore "SampleTest/dotnet/Sample Test.sln" --verbosity detailed
 
   build:
     commands:
       - echo "=== BUILD PHASE ==="
-      # Publish project to ./publish folder
       - dotnet publish "SampleTest/dotnet/SampleTest.csproj" -c Release -o publish
       - echo "Publish folder content:"
       - ls -R publish
 
 artifacts:
+  base-directory: publish
   files:
     - '**/*'
-  base-directory: publish
 
