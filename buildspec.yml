@@ -2,34 +2,9 @@ version: 0.2
 
 phases:
   install:
-    runtime-versions:
-      dotnet: 8.0
     commands:
-      - "echo '=== INSTALL PHASE STARTED ==='"
-      - "echo 'Current working directory:' && pwd"
-      - "echo 'Listing all files:' && ls -R"
+      - echo "=== Checking directory structure in CodeBuild ==="
+      - pwd
+      - ls -R
+      - echo "=== End of listing ==="
 
-      # Show .NET SDK info
-      - "echo 'Checking .NET SDK:'"
-      - dotnet --info
-
-      # Verify project path
-      - "echo 'Verifying project file path...'"
-      - "if [ -f SampleTest/dotnet/SampleTestApp.csproj ]; then echo '✅ Found SampleTest/dotnet/SampleTestApp.csproj'; PROJECT_PATH='SampleTest/dotnet/SampleTestApp.csproj'; elif [ -f dotnet/SampleTestApp.csproj ]; then echo '✅ Found dotnet/SampleTestApp.csproj'; PROJECT_PATH='dotnet/SampleTestApp.csproj'; else echo '❌ Project file not found'; ls -R; exit 1; fi"
-
-      # Restore dependencies with detailed output
-      - "echo 'Restoring .NET dependencies from $PROJECT_PATH...'"
-      - dotnet restore "$PROJECT_PATH" --verbosity detailed
-
-  build:
-    commands:
-      - "echo '=== BUILD PHASE STARTED ==='"
-      - "echo 'Publishing project...'"
-      - dotnet publish "$PROJECT_PATH" -c Release -o publish
-      - "echo 'Build complete. Contents of publish folder:'"
-      - ls -R publish
-
-artifacts:
-  base-directory: publish
-  files:
-    - '**/*'
