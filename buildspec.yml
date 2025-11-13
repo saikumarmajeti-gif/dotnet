@@ -22,3 +22,4 @@ artifacts:
   files:
     - publish/**/*
   base-directory: publish
+
