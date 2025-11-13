@@ -2,9 +2,31 @@ version: 0.2
 
 phases:
   install:
+    runtime-versions:
+      dotnet: 8.0
     commands:
-      - echo "=== Checking directory structure in CodeBuild ==="
+      - echo "=== INSTALL PHASE ==="
       - pwd
       - ls -R
-      - echo "=== End of listing ==="
+      - echo "Check .NET version"
+      - dotnet --info
+
+  pre_build:
+    commands:
+      - echo "=== RESTORE PHASE ==="
+      # restore solution
+      - dotnet restore "SampleTest/dotnet/Sample Test.sln" --verbosity detailed
+
+  build:
+    commands:
+      - echo "=== BUILD PHASE ==="
+      # publish project
+      - dotnet publish "SampleTest/dotnet/SampleTest.csproj" -c Release -o publish
+      - echo "Publish folder content:"
+      - ls -R publish
+
+artifacts:
+  files:
+    - '**/*'
+  base-directory: publish
 
