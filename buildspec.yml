@@ -5,13 +5,13 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      install:
-  commands:
-    - echo "Current directory: $(pwd)"
-    - echo "Listing files recursively:"
-    - ls -R
-    - echo "Attempting dotnet restore..."
-    - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
+      - echo "Current directory: $(pwd)"
+      - echo "Listing files recursively:"
+      - ls -R
+      - echo "Checking .NET SDK version..."
+      - dotnet --info
+      - echo "Attempting dotnet restore..."
+      - dotnet restore SampleTest/dotnet/SampleTestApp.csproj
 
   build:
     commands:
@@ -22,4 +22,3 @@ artifacts:
   files:
     - publish/**/*
   base-directory: publish
-
