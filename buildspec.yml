@@ -9,10 +9,13 @@ phases:
       - dotnet --info
       - ls -R
 
-  pre_build:
+    pre_build:
     commands:
       - echo "Restore phase"
-      - dotnet restore "Sample Test.sln" --verbosity detailed
+      - dotnet restore "Sample Test.sln" --verbosity detailed 2>&1 | tee restore.log
+      - echo "=== END RESTORE LOG ==="
+      - cat restore.log
+
 
   build:
     commands:
