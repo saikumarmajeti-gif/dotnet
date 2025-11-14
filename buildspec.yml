@@ -6,26 +6,19 @@ phases:
       dotnet: 8.0
     commands:
       - echo "=== INSTALL PHASE ==="
-      - echo "Current directory: $(pwd)"
-      - echo "Listing all files:"
-      - ls -R
-      - echo "Check .NET version"
       - dotnet --info
+      - ls -R
 
   pre_build:
     commands:
       - echo "=== RESTORE PHASE ==="
-      - echo "Attempting to restore solution: Sample Test.sln"
-      - if [ -f "Sample Test.sln" ]; then echo "✅ Found Sample Test.sln"; else echo "❌ Solution not found"; ls -R; exit 1; fi
-      - dotnet restore "Sample Test.sln" --no-cache --verbosity detailed || (echo "❌ dotnet restore failed" && exit 1)
+      - dotnet restore "Sample Test.sln" --verbosity detailed
 
   build:
     commands:
       - echo "=== BUILD PHASE ==="
-      - echo "Building and publishing project: SampleTest.csproj"
-      - if [ -f "SampleTest.csproj" ]; then echo "✅ Found SampleTest.csproj"; else echo "❌ Project file not found"; ls -R; exit 1; fi
       - dotnet publish "SampleTest.csproj" -c Release -o publish
-      - echo "=== PUBLISH CONTENTS ==="
+      - echo "=== Publish Output ==="
       - ls -R publish
 
 artifacts:
