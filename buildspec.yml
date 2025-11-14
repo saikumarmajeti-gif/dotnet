@@ -5,21 +5,19 @@ phases:
     runtime-versions:
       dotnet: 8.0
     commands:
-      - echo "=== INSTALL PHASE ==="
+      - echo "Install phase"
       - dotnet --info
       - ls -R
 
   pre_build:
     commands:
-      - echo "=== RESTORE PHASE ==="
+      - echo "Restore phase"
       - dotnet restore "Sample Test.sln" --verbosity detailed
 
   build:
     commands:
-      - echo "=== BUILD PHASE ==="
-      - dotnet publish "SampleTest.csproj" -c Release -o publish
-      - echo "=== Publish Output ==="
-      - ls -R publish
+      - echo "Build phase"
+      - dotnet publish SampleTest.csproj -c Release -o publish
 
 artifacts:
   base-directory: publish
