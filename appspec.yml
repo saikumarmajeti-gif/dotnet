@@ -2,8 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: publish/
-    destination: /var/www/SampleTest
-
+    destination: /var/www/html/SampleTest/dotnet  # <- must exist or CodeDeploy must have permissions to create
 hooks:
   BeforeInstall:
     - location: scripts/stop_app.sh
